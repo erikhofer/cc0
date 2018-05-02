@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  padding-top: 20px;
+}
+
+#results {
+  flex-grow: 1;
+  position: relative;
+}
+
+.tab-pane, .tab-content, iframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}

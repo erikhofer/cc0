@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Search cc0 images</title>
+  </head>
+  <body>
+    <div id="header" class="container">
+      <form class="form-inline">
+        <input type="text" class="form-control mb-2 mr-sm-2" id="query" placeholder="Search cc0 images...">
+        <button type="submit" id="submit" class="form-control btn btn-primary mb-2 mr-sm-4">Search</button>
+        <ul class="nav nav-tabs mr-sm-4" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#pixabay" aria-selected="true">Pixabay</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#pexels" aria-controls="profile" aria-selected="false">Pexels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#stocksnap" aria-controls="contact" aria-selected="false">Stocksnap</a>
+          </li>
+        </ul>
+        <a href="https://github.com/erikhofer/cc0" target="_blank"><img src="github.png" /></a>
+      </form>
+    </div>
+    <div id="results">
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="pixabay"><iframe src="https://pixabay.com/" frameborder="0"></iframe></div>
+        <div class="tab-pane fade" id="pexels"><iframe src="https://www.pexels.com/" frameborder="0"></iframe></div>
+        <div class="tab-pane fade" id="stocksnap"><iframe src="https://stocksnap.io/" frameborder="0"></iframe></div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
