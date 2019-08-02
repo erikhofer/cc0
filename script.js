@@ -1,7 +1,7 @@
 var providers = [
   {
     id: 'pixabay',
-    url: 'https://pixabay.com/photos/?q='
+    url: 'https://pixabay.com/images/search/'
   },
   {
     id: 'pexels',
